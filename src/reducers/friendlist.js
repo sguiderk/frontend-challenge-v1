@@ -4,14 +4,22 @@ const initialState = {
   friendsById: [
     {
       name: 'Theodore Roosevelt',
+      gender: 'male',
       starred: true
     },
     {
       name: 'Abraham Lincoln',
+      gender: 'male',
       starred: false
     },
     {
+      name: 'Margaret Hamilton',
+      gender: 'female',
+      starred: true
+    },
+    {
       name: 'George Washington',
+      gender: 'male',
       starred: false
     }
   ]
@@ -25,8 +33,8 @@ export default function friends(state = initialState, action) {
         friendsById: [
           ...state.friendsById,
           {
-            name: action.name
-          }
+           ...action.data
+          },
         ],
       };
     case types.DELETE_FRIEND:
