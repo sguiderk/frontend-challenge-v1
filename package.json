@@ -5,18 +5,25 @@
   "dependencies": {
     "classnames": "^2.2.5",
     "lodash": "^4.17.4",
+    "prop-types": "^15.6.2",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
     "react-redux": "^5.0.4",
-    "redux": "^3.6.0"
+    "redux": "^3.6.0",
+    "react-native": "^0.58.3"
   },
   "devDependencies": {
-    "react-scripts": "0.9.5"
+    "babel-jest": "^24.1.0",
+    "enzyme": "^3.8.0",
+    "enzyme-adapter-react-16": "^1.7.1",
+    "enzyme-to-json": "^3.3.5",
+    "react-scripts": "0.9.5",
+    "sinon": "^7.2.3"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
+    "test": "react-scripts test",
     "eject": "react-scripts eject"
   }
 }
