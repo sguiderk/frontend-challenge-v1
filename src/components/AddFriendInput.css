@@ -1,6 +1,40 @@
-:local(.addFriendInput) {
+:local(.addFriendContainer) {
+  margin-bottom: 10px;
+}
+:local(.addFriendInput),
+:local(.addFriendSelect),
+:local(.addFriendSubmit) {
   border-radius: 0;
   border-color: #ABAAAA;
   border-left: 0;
   border-right: 0;
+  display: inline-block;
+  margin-bottom:5px;
+}
+:local(.ErrorRequired) {
+  border:solid 2px #f18e8e;
+}
+:local(.addFriendSelect),
+:local(.addFriendButton){
+	vertical-align: top;
+}
+:local(.addFriendSelect) {
+  width: calc(100% - 75px );
+  margin-left: 5px;
+}
+:local(.addFriendButton) {
+ width:70px;
+  border-radius: 0;
+  color: #25a025;
+}
+:local(.addFriendButton i) {
+	font-size: 16px;
+    margin-right: 6px;
+}
+:local(.ErrorMessage){
+    background-color: #f18e8e;
+    text-align: center;
+    width: 100%;
+    color: white;
+    margin: 10px 0px;
 }

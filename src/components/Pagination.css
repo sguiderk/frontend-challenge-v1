@@ -1,0 +1,9 @@
+:local(.containerpagination){
+  width: 100%;
+  text-align:center;
+}
+
+.pagination >li> a {
+  font-size: 1rem;
+  padding: 6px 8px;
+}
