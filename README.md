@@ -1,23 +1,22 @@
 # React Front-end Challenge - HeavenHR
 
-This single page application that presents a list of friends that you can add,star,delete it 
+This single page application that presents a list of friends that you can add, star, delete it.
 
 ## Task done
 
-* Add pagination to the component with number of pager and first,next,previous,last
-* Add select option for male female
-* Add icon to view friend either male or female
-* Add validation for fields name and gender
-* Add unit test for action addfriend,starred,deletefriend,
-* Add unit test for componontes AddFriendInput,FriendList,Pagination
+* Add pagination to the component friendslist with a number of a pager and first, next, previous, last.
+* Add select option for male, female.
+* Add icon to view friend either male or female.
+* Add validation for fields name and gender.
+* Add unit test for action addfriend,starred, deletefriends.
+* Add unit test for components AddFriendInput,FriendList,Pagination.
 
 ## Ux concept
 
 * I've adapted the font & icon size for providing the Typography concept.
-* I've put the add friend button & field validation for name & gender 
-  , however the users can use the application with effortless due the Usability concept.
+* I've put the add friend button & field validation for name & gender, however,
+  the users can use the application with effortless due to the Usability concept.
   
-
 ## Screenshot and demonstration of this app 
 
 ![](https://i.imgur.com/K2BlGF7l.png)
@@ -103,9 +102,9 @@ Then it will open http://localhost:3000 and the application will be running.
 
 ## Test
 
-I've chosen enzyme and sinon to test 
+I've chosen ENZYME and SINON to test. 
 
-The script of test app.test.js contains 1 case of test with Snapshot, it tests to automate the process and create unit tests that can easily be overwritten and managed through time, and Pagination.test.js,FriendList.test.js,AddFriendInput.test.js,FriendsActions.test.js for the 8 others is normal test.
+The script of test app.test.js contains 1 case of test with Snapshot, it tests to automate the process and create unit tests that can easily be overwritten and managed through time, and Pagination.test.js,FriendList.test.js,AddFriendInput.test.js,FriendsActions.test.js for the 8 others is normal test unit.
 
 ## To Run Tests
 
