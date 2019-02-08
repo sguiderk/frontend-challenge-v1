@@ -26,3 +26,10 @@
   margin-bottom: 0;
   height: 22vh;
 }
+:local(.friendListEmpty){
+  color:white;
+  text-align: center;
+  margin: 20px;
+  border-left: solid 2px white;
+  border-right: solid 2px white;
+}

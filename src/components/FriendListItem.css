@@ -44,22 +44,18 @@
 :local(.btnAction):focus, :local(.btnAction):hover {
   opacity:0.5;
 }
-
 :local(.friendInfos i){
     font-size: 2rem;
     display: inline-block;
     vertical-align: middle;
     margin-right: 6px;
 }
-
 :local(.btnDelete){
    color: #ff5454;
 }
 :local(.btnStarred){
    color: #dee14a;
 }
-
-
 .icon-gender.fa-male{
     color: #796ffa;
 }

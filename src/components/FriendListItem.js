@@ -1,22 +1,17 @@
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
-import React, {Component, PropTypes} from 'react';
 import classnames from 'classnames';
 import styles from './FriendListItem.css';
 
 class FriendListItem extends Component {
   
-  // generate the template for icone either male or female 
-   GenerateTemplateGender() {
-    const { gender } = this.props;
-    return <i className={` fa icon-gender fa-${gender} `}></i>
-  }
-
   render() {
-    const { id, name, starred } = this.props;
+    const { id, name, gender, starred } = this.props;
     return (
       <li className={styles.friendListItem}>
         <div className={styles.friendInfos}>
-           <div>{ this.GenerateTemplateGender() }<span>{name}</span></div>
+           <div><i className={` fa  icon-gender fa-${gender} `}></i><span>{name}</span></div>
           <div>
             <small>xx friends in common</small>
           </div>
@@ -37,8 +32,6 @@ class FriendListItem extends Component {
       </li>
     );
   }
-
-
 
 }
 

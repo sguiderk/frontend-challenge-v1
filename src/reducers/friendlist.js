@@ -8,14 +8,14 @@ const initialState = {
       starred: true
     },
     {
-      name: 'Abraham Lincoln',
-      gender: 'male',
-      starred: false
-    },
-    {
       name: 'Margaret Hamilton',
       gender: 'female',
       starred: true
+    },
+    {
+      name: 'Abraham Lincoln',
+      gender: 'male',
+      starred: false
     },
     {
       name: 'George Washington',
