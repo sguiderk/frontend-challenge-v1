@@ -1,6 +1,6 @@
 # React Front-end Challenge - HeavenHR
 
-This single page application that presents a list of friends that you can add,delete it 
+This single page application that presents a list of friends that you can add,star,delete it 
 
 ## Task done
 
@@ -10,6 +10,13 @@ This single page application that presents a list of friends that you can add,de
 * Add validation for fields name and gender
 * Add unit test for action addfriend,starred,deletefriend,
 * Add unit test for componontes AddFriendInput,FriendList,Pagination
+
+## Ux concept
+
+* I've adapt a font size & icon size for providing the Typography concept
+* I've put the add friend button & field validation for name & gender 
+  , however the users can use the application with effortless due the Usability concept 
+  
 
 ## Screenshot and demonstration of this app 
 
