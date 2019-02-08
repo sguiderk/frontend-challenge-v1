@@ -20,13 +20,13 @@ class FriendList extends Component {
     } 
  
     onChangePage(pageOfItems) {
+       
         // update state with new page of items
-
-          this.setState({ pageOfItems: pageOfItems });
+         this.setState({ pageOfItems: pageOfItems });
     }
 
     checkExistanceOfItems(){
-     console.log(this.props.friends);
+
       if(this.props.friends.length !== 0 ){
         return (
           <div>
