@@ -14,6 +14,7 @@ This single page application that presents a list of friends that you can add,de
 
 ![](https://i.imgur.com/8pxQ7PGl.png)
 
+![](https://i.imgur.com/Wz1SrYzl.png)
 
 
 ## Folder Structure
