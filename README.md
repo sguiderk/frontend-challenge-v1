@@ -13,9 +13,9 @@ This single page application that presents a list of friends that you can add,st
 
 ## Ux concept
 
-* I've adapt a font size & icon size for providing the Typography concept
+* I've adapted the font & icon size for providing the Typography concept.
 * I've put the add friend button & field validation for name & gender 
-  , however the users can use the application with effortless due the Usability concept 
+  , however the users can use the application with effortless due the Usability concept.
   
 
 ## Screenshot and demonstration of this app 
