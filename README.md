@@ -1,12 +1,15 @@
 # React Front-end Challenge - HeavenHR
+
 This single page application that presents a list of friends that you can add,delete it 
+
 ## Task done
+
 * Add pagination to the component with number of pager and first,next,previous,last
 * Add select option for male female
-* Add icone to view friend either male or female
+* Add icon to view friend either male or female
 * Add validation for fields name and gender
 * Add unit test for action addfriend,starred,deletefriend,
-
+* Add unit test for componontes AddFriendInput,FriendList,Pagination
 
 ## Screenshot and demonstration of this app 
 
@@ -93,8 +96,9 @@ Then it will open http://localhost:3000 and the application will be running.
 
 ## Test
 
-The script of test app.test.js contains 1 cases of test and 11 of them are used with
-Snapshot, it tests to automate the process and create unit tests that can easily be overwritten and managed through time, and for the 6 We check if the API work perfectly and check the render of title and section with toEqual() function.
+I've chosen enzyme and sinon to test 
+
+The script of test app.test.js contains 1 case of test with Snapshot, it tests to automate the process and create unit tests that can easily be overwritten and managed through time, and Pagination.test.js,FriendList.test.js,AddFriendInput.test.js,FriendsActions.test.js for the 8 others is normal test.
 
 ## To Run Tests
 
