@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-
 import Enzyme, { shallow, render, mount } from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 // React 16 Enzyme adapter
@@ -9,14 +8,11 @@ Enzyme.configure({ adapter: new Adapter() });
 global.shallow = shallow;
 global.render = render;
 global.mount = mount;
-
 import * as sinon from "sinon";
-
 import Pagination from "./Pagination";
 
 
 describe("<Pagination />", () => {
-
 
     const friends = [
       {
@@ -41,24 +37,19 @@ describe("<Pagination />", () => {
     }
     ];
 
-  test("should render with previous button, next button and page number ", () => {
+  test("should render with First,previous,next and last button", () => {
+  
     const props = {
       currentIndex: 3,
       onChangePage: function(){},
       pageSize: 2,
       items: friends
     };
-
     const wrapper = Enzyme.shallow(<Pagination {...props} />);
-
     expect(wrapper.find("li a").at(0).text()).toBe('First');
-
     expect(wrapper.find("li a").at(1).text()).toBe('Previous');
-
     expect(wrapper.find("li").length).toBe(6);
-
     expect(wrapper.find("li a").at(4).text()).toBe('Next');
-
     expect(wrapper.find("li a").at(5).text()).toBe('Last');
 
   });
