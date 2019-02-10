@@ -1,30 +1,26 @@
 import { addFriend, deleteFriend, starFriend } from './FriendsActions';
 
 describe('Testing FriendsActions', () => {
-
-    test('addFriend should return correct object from given arguments', () => {
+    
+    test('addFriend should return the correct object', () => {
         const name = 'Test-name';
         const gender = 'Male';
-        const AddedAction = addFriend(name, gender);
-        expect(AddedAction.data.name).toBe(name);
-        expect(AddedAction.data.gender).toBe(gender);
-        expect(AddedAction.type).toBe('ADD_FRIEND');
+        const Addedaction = addFriend(name, gender);
+        expect(Addedaction.data.name).toBe(name);
+        expect(Addedaction.data.gender).toBe(gender);
+        expect(Addedaction.type).toBe('ADD_FRIEND');
     });
 
-    test('starFriend should return correct object from given arguments', () => {
-    
-        const StareDAction = starFriend(1);
-        expect(StareDAction.id).toBe(1);
-        expect(StareDAction.type).toBe('STAR_FRIEND');
+    test('starFriend should return the correct object', () => {  
+        const StareDaction = starFriend(1);
+        expect(StareDaction.id).toBe(1);
+        expect(StareDaction.type).toBe('STAR_FRIEND');
 
     });
 
-     test('deleteFriend should return correct object from given arguments', () => {
-    
-        const DeleteDAction = deleteFriend(1);
-        expect(DeleteDAction.id).toBe(1);
-        expect(DeleteDAction.type).toBe('DELETE_FRIEND');
-
+    test('deleteFriend should return the correct object', () => { 
+        const DeleteDaction = deleteFriend(1);
+        expect(DeleteDaction.id).toBe(1);
+        expect(DeleteDaction.type).toBe('DELETE_FRIEND');
     });
-}); 
-
+});
